@@ -21,6 +21,7 @@
 		2B9878AE197C8E9C001C1286 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B987890197C8E9C001C1286 /* UIKit.framework */; };
 		2B9878B6197C8E9D001C1286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B9878B4197C8E9D001C1286 /* InfoPlist.strings */; };
 		2B9878B8197C8E9D001C1286 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9878B7197C8E9D001C1286 /* Git_TestTests.m */; };
+		2B9878C3197C9062001C1286 /* JIN_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9878C2197C9062001C1286 /* JIN_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2B9878B3197C8E9C001C1286 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		2B9878B5197C8E9D001C1286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B9878B7197C8E9D001C1286 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2B9878C1197C9062001C1286 /* JIN_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIN_Test.h; sourceTree = "<group>"; };
+		2B9878C2197C9062001C1286 /* JIN_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIN_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		2B987880197C8E9C001C1286 = {
 			isa = PBXGroup;
 			children = (
+				2B9878C1197C9062001C1286 /* JIN_Test.h */,
+				2B9878C2197C9062001C1286 /* JIN_Test.m */,
 				2B987892197C8E9C001C1286 /* Git Test */,
 				2B9878B1197C8E9C001C1286 /* Git TestTests */,
 				2B98788B197C8E9C001C1286 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B98789D197C8E9C001C1286 /* JINAppDelegate.m in Sources */,
+				2B9878C3197C9062001C1286 /* JIN_Test.m in Sources */,
 				2B987899197C8E9C001C1286 /* main.m in Sources */,
 				2B9878A3197C8E9C001C1286 /* JINViewController.m in Sources */,
 			);
